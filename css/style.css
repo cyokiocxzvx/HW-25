@@ -1,0 +1,32 @@
+.list {
+    position: relative;
+}
+
+.item:nth-child(1){
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    position: absolute;
+    left: 780px;
+        /* z-index: 1; */
+}
+.item:nth-child(2) {
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    left: 900px;
+    top: 130px;
+    position: absolute;
+    z-index: 1;
+
+}
+.item:nth-child(3) {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+        position: absolute;
+        left: 1000px;
+            top: 260px;
+            /* z-index: 2; */
+    
+}
